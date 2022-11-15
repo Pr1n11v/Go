@@ -20,7 +20,8 @@ func main(){
   var size,target int 
   fmt.Println("Enter the size of the array and the target sum")
   fmt.Scan(&size,&target)
-  var arr := make([]int,size)
+  var arr = make([]int,size)
+  fmt.Println("Enter the array elements")
   for i:=0;i<size;i++{
        fmt.Scanf("%d",&arr[i])
    
