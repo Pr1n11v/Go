@@ -18,7 +18,7 @@ func twoSum(nums []int, target int) []int {
 
 func main(){
   var size,target int 
-  fmt.Println("Enter the size of the array and the target sum")
+  fmt.Println("Enter the array size and the target sum")
   fmt.Scan(&size,&target)
   var arr = make([]int,size)
   fmt.Println("Enter the array elements")
